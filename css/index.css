@@ -49,6 +49,7 @@ button {
 .todo li {
     padding: 1em;
     list-style-type: none;
+    word-break: break-all;
 }
 .todo li:not(:last-child) {
     border-bottom: 1px solid black;
