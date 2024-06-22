@@ -50,9 +50,16 @@ button {
     padding: 1em;
     list-style-type: none;
     word-break: break-all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .todo li:not(:last-child) {
     border-bottom: 1px solid black;
+}
+.delete {
+    height: 20px;
+    width: 20px;
 }
 input[type='checkbox'] {
     opacity: 0;

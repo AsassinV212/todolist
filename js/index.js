@@ -37,6 +37,7 @@ function displayMessages() {
             item.important ? 'important' : false
         }'>
                 ${item.todo}</label>
+                <img class = 'delete' src='../icons/bin.png' alt='delete'>
             </li>
         `
         todo.innerHTML = displayMessage
@@ -68,3 +69,5 @@ todo.addEventListener('contextmenu', (event) =>{
         }
     })
 })
+
+del.addEventListener('click', () => this.delElem.parentElement.remove)
